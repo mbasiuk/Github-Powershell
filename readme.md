@@ -85,7 +85,7 @@ This Powershell Module Advantage
  * editing `powershell profile` is not recommended. In case if we add `posh-git` to `$PROFILE` it will eat about `500ms` on my laptop! for every powershell start!
  I prepare small test for `posh-git` init on my laptop:      
 
-    
+```powershell    
     PS E:\> Measure-Command { ipmo git }
     
     
@@ -138,7 +138,7 @@ This Powershell Module Advantage
     SystemType   Manufacturer          Model
     ----------   ------------          -----
     x64-based PC ASUSTeK COMPUTER INC. Q551LN
-    
+```    
      
 
 # Usage
