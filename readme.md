@@ -1,6 +1,6 @@
-### Install
-Folder WindownPowershell shold be under your powershell profile
-for me it's C:\user\mike\Documents\WindowsPowerShell
+# Install
+Folder WindownPowershell shold be under your powershell profile  
+for me it's C:\user\mike\Documents\WindowsPowerShell  
 copy modules once:
 ```powershell
 git clone https://github.com/mbasiuk/Github-Powershell.git
@@ -19,6 +19,8 @@ To init github shell
 * no need to think, how to run 'git shell' as administrator
 * no break your context
 
+# Usage
+
 just type
 
 ```powershell
@@ -32,6 +34,7 @@ Now you can use
 * and many others
 
 # Demo
-before 'impo git' git shell was't initilized
+
+*just see on same before* impo git *and after*
 
 ![ipmogit](ipmogit.png)
