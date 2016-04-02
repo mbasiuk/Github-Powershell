@@ -17,6 +17,7 @@ To init github shell
 * without slow powershell start
 * no need to choose 'git shell' shortcut
 * no need to think, how to run 'git shell' as administrator
+* no dependency on _magic github guids_  in the path
 * no break your context
 
 # Usage
