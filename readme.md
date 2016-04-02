@@ -7,6 +7,8 @@ git clone https://github.com/mbasiuk/Github-Powershell.git
 copy .\WindowsPowerShell\Modules\ (Split-Path $PROFILE) -Recurse -ErrorAction Ignore
 ```
 
+# Features
+
 To init github shell
 * directly from powershell
 * at any time
@@ -15,6 +17,7 @@ To init github shell
 * without slow powershell start
 * no need to choose 'git shell' shortcut
 * no need to think, how to run 'git shell' as administrator
+* no break your context
 
 just type
 
@@ -28,5 +31,7 @@ Now you can use
 * push/sync
 * and many others
 
+# Demo
+before 'impo git' git shell was't initilized
 
 ![ipmogit](ipmogit.png)
