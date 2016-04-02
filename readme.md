@@ -7,6 +7,27 @@ git clone https://github.com/mbasiuk/Github-Powershell.git
 copy .\WindowsPowerShell\Modules\ (Split-Path $PROFILE) -Recurse -ErrorAction Ignore
 ```
 
+# Usage
+
+open powershell   
+type:
+
+```powershell
+ipmo git
+```
+
+Now you can use 
+* tab expansion for git commands, 
+* highlight
+* push/sync
+* and many others
+
+# Demo
+
+*just see on same before* impo git *and after*
+
+![ipmogit](ipmogit.png)
+
 # Features
 
 Tab completion
@@ -45,26 +66,28 @@ By default, the status summary has the following format:
 
 For example, a status of `[master +0 ~2 -1 | +1 ~1 -0]` corresponds to the following `git status`:
 
-    # On branch master
-    #
-    # Changes to be committed:
-    #   (use "git reset HEAD <file>..." to unstage)
-    #
-    #        modified:   this-changed.txt
-    #        modified:   this-too.txt
-    #        deleted:    gone.ps1
-    #
-    # Changed but not updated:
-    #   (use "git add <file>..." to update what will be committed)
-    #   (use "git checkout -- <file>..." to discard changes in working directory)
-    #
-    #        modified:   not-staged.ps1
-    #
-    # Untracked files:
-    #   (use "git add <file>..." to include in what will be committed)
-    #
-    #        new.file
-
+```powershell  
+     On branch master
+    
+     Changes to be committed:
+       (use "git reset HEAD <file>..." to unstage)
+    
+            modified:   this-changed.txt
+            modified:   this-too.txt
+            deleted:    gone.ps1
+    
+     Changed but not updated:
+       (use "git add <file>..." to update what will be committed)
+       (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            modified:   not-staged.ps1
+    
+     Untracked files:
+       (use "git add <file>..." to include in what will be committed)
+    
+            new.file
+```
+    
 This Powershell Module Advantage
 --------------------------------
 
@@ -139,25 +162,3 @@ This Powershell Module Advantage
     ----------   ------------          -----
     x64-based PC ASUSTeK COMPUTER INC. Q551LN
 ```    
-     
-
-# Usage
-
-open powershell   
-type:
-
-```powershell
-ipmo git
-```
-
-Now you can use 
-* tab expansion for git commands, 
-* highlight
-* push/sync
-* and many others
-
-# Demo
-
-*just see on same before* impo git *and after*
-
-![ipmogit](ipmogit.png)
