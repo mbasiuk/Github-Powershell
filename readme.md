@@ -89,11 +89,32 @@ Untracked files:
 
     new.file
 ```
-    
-This Powershell Module Advantage
---------------------------------
 
-* `Powershell Module` is better than `Powershell Profile`
+ Why use Powershell Module?
+ --------------------------
+    
+Short
+-----
+* `Powershell Module` is better then `Powershell Profile`
+* `Powershell Module` is better then `Git Shell.lnk`
+
+Details
+-------
+
+| | Module | Profile | Git Shell.lnk |
+| --- | --- | --- | --- |
+| same `PS` session | + | + | - |
+| native `PS` support | + | + | - |
+| not asking for update* | + | + | - |
+| no install required | - | - | + |
+| git in `PATH` no required | + |  | + |
+| editing `profile` not required | + | - | + |
+| can `run as administrator` | + | + | - |
+| no dependency on `magic path`* | + | | + |
+| run | ipmo git | auto* | click link |
+| execution time(ms) | 439 | 439 | 439 |
+| affect every PS shell start(ms) | 0 | 439 | 0 | 
+
  * No break your context - `Git Shell.lnk` may ask for `GitHub` update and be very annoing with this.   
  * This loaded in `powershell` - this is important, becouse as the middle of your session with chosen path, acount (admin or user),
  inited variables that you calculated etc... you need git. You can close your session and start `Git Shell.lnk`.
