@@ -12,3 +12,5 @@ To init github shell at any time directly from powershell type
 ipmo git
 ```
 Now you can use tab expansion for git commands, highlight and many others
+
+![ipmogit](ipmogit.png)
