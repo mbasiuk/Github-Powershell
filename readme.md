@@ -1,15 +1,15 @@
 # Install
 Folder WindownPowershell shold be under your powershell profile  
 for me it's C:\user\mike\Documents\WindowsPowerShell  
-copy modules once:
+copy modules once using Git Shell:
 ```powershell
 git clone https://github.com/mbasiuk/Github-Powershell.git
-copy .\WindowsPowerShell\Modules\ (Split-Path $PROFILE) -Recurse -ErrorAction Ignore
+copy Github-Powershell\WindowsPowerShell\Modules\ (Split-Path $PROFILE) -Recurse -ErrorAction Ignore
 ```
 
 # Usage
 
-open powershell   
+Now, we are free to use general powershell instance(not git shell)
 type:
 
 ```powershell
